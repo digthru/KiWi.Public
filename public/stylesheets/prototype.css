@@ -1,0 +1,21 @@
+.icon {
+  font-family: 'Fontello';
+}
+.icon-app:before {
+  content: "";
+}
+.icon-install:before {
+  content: '';
+}
+.icon-overview:before {
+  content: '';
+}
+.icon-build:before {
+  content: '';
+}
+.icon-share:before {
+  content: '';
+}
+.icon-monitor:before {
+  content: '';
+}
