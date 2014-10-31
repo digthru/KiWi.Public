@@ -1,0 +1,53 @@
+//Theme Definitions by parametric mixin numbers (1), (2), etc.
+
+@numberOfThemes: 2; //controls theme loop
+
+.vendor(@property, @value) {
+    -webkit-@{property}: @value;
+     -khtml-@{property}: @value;
+       -moz-@{property}: @value;
+        -ms-@{property}: @value;
+         -o-@{property}: @value;
+            @{property}: @value;
+}
+
+
+.vendorf(@property, @value) {
+    -webkit-@{property}: @value !important;
+     -khtml-@{property}: @value !important;
+       -moz-@{property}: @value !important;
+        -ms-@{property}: @value !important;
+         -o-@{property}: @value !important;
+            @{property}: @value !important;
+}
+
+.disply-flex(){
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+}
+
+
+.icon {
+    font-family:'Fontello';
+}
+.icon-app:before{
+  content:"";
+}
+.icon-install:before{
+    content:'';
+}
+.icon-overview:before{
+    content:'';
+}
+.icon-build:before{
+    content:'';
+}
+.icon-share:before{
+    content:'';
+}
+.icon-monitor:before{
+    content:'';
+}
